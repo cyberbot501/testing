@@ -1,0 +1,163 @@
+.containers{
+    padding: 40px 150px 0px 150px;
+    margin: none;
+    
+  }
+
+  .mat-box{
+    background: linear-gradient(0deg, rgba(41, 45, 50, 0.66), rgba(41, 45, 50, 0.66)),
+    linear-gradient(90deg, #2D2732 0%, #383D56 100%),
+    linear-gradient(0deg, rgba(162, 89, 206, 0.66), rgba(162, 89, 206, 0.66));
+   
+    padding: 50px 80px 40px 80px;
+    color: white;
+  }
+
+  .know, .update{
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+  }
+
+
+  .studys{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .studys input{
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid white;
+    background: none;
+    color: #FFFFFF70;
+    margin-bottom: 20px;
+    margin-top: 5px;
+  }
+
+  .cv{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .cv .studyss, .resume{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cv .studyss select{
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid white;
+    background: none;
+    color: #FFFFFF70;
+    margin-top: 5px;
+  }
+
+  .cv .resume input{
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid white;
+    background: none;
+    margin-bottom: 20px;
+    margin-top: 5px;
+  }
+
+  .comments{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .comments textarea{
+    height: 150px;
+    border-radius: 4px;
+    border: 1px solid white;
+    background: #FFFFFF70;
+    margin-top: 5px;
+  }
+
+  .updatedd input{
+    background: none;
+    margin-top: 20px;
+  }
+
+  .knownn input{
+    background: none;
+    margin-top: 20px;
+  }
+
+  button.yes{
+    border-radius: none;
+    margin-top: 10px;
+    margin-left: 83%;
+    width: 150px;
+    height: 30px;
+  }
+
+
+  @media (width: 810px){
+    .cv{
+      flex-direction: column;
+    }
+
+    .know, .update{
+      gap: 1px;
+    }
+
+    .mat-box{
+      padding: 50px 20px 40px 20px;
+      font-size: 14px;
+    }
+
+    .updatedd input,
+    .knownn input{
+      margin-top: 15px;
+    }
+
+    button.yes{
+      margin-left: 67%;
+    }
+  }
+
+  @media (width: 412px){
+
+    .mat-box{
+      padding: 50px 20px 40px 20px;
+      font-size: 14px;
+    }
+
+    .cv{
+      flex-direction: column;
+    }
+
+    .containers{
+      padding: 40px 30px 40px 30px;
+      margin: none;
+      
+    }
+
+      
+    .know,
+    .update{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .knownn,
+    .updatedd{
+      margin-top: -40px;
+    }
+
+
+
+    button.yes{
+      margin-left: 50%;
+    }
+  
+  }
+
+ 
+
+  
