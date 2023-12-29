@@ -2,6 +2,7 @@ import React from 'react'
 import { useContext } from "react";
 import RegisterContext from '../../../contexts/register-context';
 import { useState } from 'react';
+import './step-one.css'
 
 import logoss from "../assets/image 3.svg"
 

@@ -1,6 +1,7 @@
 import React, { useContext, useState } from 'react';
 import RegisterContext from '../../../contexts/register-context';
 import logoss from '../assets/image 3.svg';
+import './step-one.css'
 
 export default function StepThree() {
   const { data, setData, step, setStep } = useContext(RegisterContext);

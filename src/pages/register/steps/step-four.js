@@ -122,7 +122,7 @@ export default function StepFour() {
               <input
                 type="radio"
                 name="updated"
-                id="resume"
+                id="updated"
                 checked={!data.updated}
                 onChange={() => setData((prev) => ({ ...prev, updated: false }))}
               />
