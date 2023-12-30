@@ -162,7 +162,8 @@
   }
 
   .main .text{
-    padding: 0px 20px 90px 80px;
+    padding: 0px 0px 90px 80px;
+
   }
 
   
@@ -180,22 +181,22 @@
 
   .main .form-box{
     max-width: 100%;
-    padding: 70px 90px;
+    padding: 70px 150px;
     margin-left: -95px;
     margin-top: -80px;
   
   }
 
   .main .form-box .form .input input{
-    width: 120%;
+    width: 250%;
   }
 
   .main .form-box .form .input {
-    margin-left: -60px;
+    margin-left: -120px;
   }
 
   .main .form-box .form .input select{
-    width: 125%;
+    width: 245%;
   }
 
   .main .text{
