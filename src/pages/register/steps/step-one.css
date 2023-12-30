@@ -134,17 +134,17 @@
 
 
 
-@media (width: 810px) {
+  @media screen and (max-width: 810px) {
   .main{
     flex-direction: column;
-    padding: 70px 50px;
+    padding: 70px 60px;
 
   }
 
   .main .form-box{
-    width: 70%;
+    max-width: 100%;
     padding: 70px 90px;
-    margin-left: -95px;
+    margin-left: -28px;
     margin-top: -80px;
   
   }
@@ -162,14 +162,14 @@
   }
 
   .main .text{
-    margin-top: -130px;
-    margin-left: -30px;
+    padding: 0px 20px 90px 0px;
+    margin-left: 80px;
   }
 
   
 }
 
-@media (width: 412px){
+@media screen and (max-width: 412px){
   .main{
     flex-direction: column;
     
