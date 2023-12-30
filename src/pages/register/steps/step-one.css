@@ -180,15 +180,15 @@
   }
 
   .main .form-box{
-    max-width: 130%;
-    padding: 70px 170px;
+    max-width: 100%;
+    padding: 70px 150px;
     margin-left: -127px;
     margin-top: -80px;
   
   }
 
   .main .form-box .form .input input{
-    width: 250%;
+    width: 200%;
   }
 
   .main .form-box .form .input {
@@ -205,6 +205,10 @@
     margin-left: -60px;
   }
 
+
+}
+
+@media screen and (max-width: 350px){
 
 }
 
