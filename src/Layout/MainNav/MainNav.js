@@ -21,7 +21,7 @@ const MainNav = () => {
             <Nav className={styles.nav_links}>
               <NavLink to="/" className={styles.link}>Home</NavLink>
               <NavLink to="/about" className={styles.link}>About Us</NavLink>
-              <NavLink className={styles.link}>Contact Us</NavLink>
+              <NavLink to="/contact" className={styles.link}>Contact Us</NavLink>
             </Nav>
           </Navbar.Collapse>
         </Container>
