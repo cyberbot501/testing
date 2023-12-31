@@ -1,9 +1,14 @@
 import React from 'react'
 import MainNav from '../Layout/MainNav/MainNav'
+import Body from '../components/ContactComponent/Body'
 
 function ContactPage() {
   return (
-   <MainNav/>
+    <div>
+        <MainNav/>
+        <Body />
+    </div>
+   
   )
 }
 
