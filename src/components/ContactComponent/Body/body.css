@@ -1,0 +1,52 @@
+.Container{
+    /* background: url(../../../Assets/contactbg.png); */
+    /* margin-top: 300px; */
+}
+
+.Container .main .inner .avater{
+    display: flex;
+    gap: 20px;
+}
+.Container .main .inner .avater p{
+    width: 260px;
+    margin-top: 10px;
+}
+.Container .main .inner h4{
+    margin-bottom: 40px;
+}
+
+.Container .main form .name{
+    display: flex;
+    flex-direction: column;
+}
+
+.Container .main form .name input{
+    width: 535px;
+    height: 71px;
+    background: #D9D9D9;
+    border: none;
+}
+
+.Container .main form .thoughts textarea{
+    width: 535px;
+    height: 228px;
+    background: #D9D9D9;
+    border: none;
+}
+
+.Container .main form .pick input{
+    width: 42px;
+    height: 36px;
+}
+
+.Container .main form .pick{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.Container .main form .pick p{
+    margin-top: 7px;
+    font-size: 11px;
+    font-weight: 500;
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 import MainNav from '../Layout/MainNav/MainNav'
-import Body from '../components/ContactComponent/Body'
+import Body from '../components/ContactComponent/Body/Body'
 
 function ContactPage() {
   return (
