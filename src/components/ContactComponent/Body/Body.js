@@ -41,7 +41,7 @@ function Body() {
 
             <div className='pick'>
               <input type= 'checkbox'/>
-              <p>I agree to allow 501k internship to store and process my personal data</p>
+              <p className='data'>I agree to allow 501k internship to store and process my personal data</p>
             </div>
         </form>
 

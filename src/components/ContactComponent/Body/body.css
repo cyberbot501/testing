@@ -1,6 +1,6 @@
 .Container{
-    /* background: url(../../../Assets/contactbg.png); */
-    /* margin-top: 300px; */
+    background: url(../../../Assets/contactbg.png); 
+    /* /* margin-top: 300px; */
 }
 
 .Container .main .inner .avater{
@@ -27,6 +27,12 @@
     border: none;
 }
 
+form{
+    background: #ffffff;
+    width: 100%;
+    padding: 70px 0px 0px 60px;
+}
+
 .Container .main form .thoughts textarea{
     width: 535px;
     height: 228px;
@@ -48,5 +54,10 @@
 .Container .main form .pick p{
     margin-top: 7px;
     font-size: 11px;
+    font-weight: 500;
+}
+
+.Container .main form .pick p.data{
+    font-size: 14px;
     font-weight: 500;
 }
