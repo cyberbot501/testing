@@ -1,5 +1,8 @@
 import React from 'react'
-
+import env from "../../../Assets/envelope.png"
+import lin from "../../../Assets/linkdn.png"
+import twi from "../../../Assets/twitter.png"
+import wha from "../../../Assets/whatsapp.png"
 function Foot() {
   return (
     <div className='container'>
@@ -17,7 +20,10 @@ function Foot() {
 
         <div className='contact'>
             <div className='icon'>
-
+                {/* <img src={env} alt=''/>
+                <img src={twi} alt=''/>
+                <img src={lin} alt=''/>
+                <img src={wha} alt=''/> */}
             </div>
             <p>@productsquare</p>
         </div>
