@@ -1,5 +1,6 @@
 .Container{
-    background: url(../../../Assets/contactbg.png); 
+    background: url(../../../Assets/contactbg.png);
+    width: fit-content; 
     /* /* margin-top: 300px; */
 }
 
@@ -27,10 +28,18 @@
     border: none;
 }
 
+.Container .main form .name{
+    margin-top: 40px;
+}
+
+.Container .main form .thoughts{
+    margin-top: 40px;
+}
+
 form{
     background: #ffffff;
     width: 100%;
-    padding: 70px 0px 0px 60px;
+    padding: 30px 0px 30px 60px;
     margin-left: 160px;
 }
 
@@ -50,6 +59,7 @@ form{
     display: flex;
     flex-direction: row;
     gap: 10px;
+    margin-top: 40px;
 }
 
 .Container .main form .pick p{
@@ -61,4 +71,14 @@ form{
 .Container .main form .pick p.data{
     font-size: 14px;
     font-weight: 500;
+}
+
+.Container .main form button{
+    width: 158px;
+    height: 54px;
+    background-color: #041B35;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    margin-top: 40px;
 }

@@ -43,6 +43,8 @@ function Body() {
               <input type= 'checkbox'/>
               <p className='data'>I agree to allow 501k internship to store and process my personal data</p>
             </div>
+
+            <button>Submit</button>
         </form>
 
 
