@@ -31,6 +31,7 @@ form{
     background: #ffffff;
     width: 100%;
     padding: 70px 0px 0px 60px;
+    margin-left: 160px;
 }
 
 .Container .main form .thoughts textarea{
