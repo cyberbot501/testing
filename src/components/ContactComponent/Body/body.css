@@ -53,6 +53,8 @@ form{
 .Container .main form .pick input{
     width: 42px;
     height: 36px;
+    font-size: 12px;
+    font-weight: 400;
 }
 
 .Container .main form .pick{
@@ -64,7 +66,7 @@ form{
 
 .Container .main form .pick p{
     margin-top: 7px;
-    font-size: 11px;
+    font-size: 14px;
     font-weight: 500;
 }
 
@@ -83,4 +85,76 @@ form{
     margin-top: 40px;
     font-size: 19px;
     font-weight: 500;
+}
+
+.Container .main form .name label{
+    font-size: 18px;
+    font-family: 500;
+}
+.Container .main form .thoughts label{
+    font-size: 18px;
+    font-family: 500;
+}
+
+@media screen and (max-width: 810px){
+    .Container .main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    form{
+        background: #ffffff;
+        width: 100%;
+        padding: 30px 0px 30px 60px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .Container .main form .name input{
+        width: 325px;
+        height: 51px;
+    }
+
+    .Container .main form .thoughts textarea{
+        width: 325px;
+        height: 228px;
+    }
+
+    form{
+        background: #ffffff;
+        max-width: 100%;
+        padding: 30px 75px 30px 30px;
+        margin-left: -45px;
+    }
+
+    .Container .main .inner{
+        margin-left: -50px;
+    }
+
+}
+
+@media screen and (max-width: 390px){
+    .Container .main .inner .avater p{
+       font-size: 15px;
+       margin-top: 25px;
+    }
+    .Container .main .inner h4{
+      font-size: 18px;
+      margin-bottom: 3px;
+    }
+
+    .Container .main form .name input{
+        width: 305px;
+        height: 51px;
+    }
+
+    .Container .main form .thoughts textarea{
+        width: 305px;
+        height: 228px;
+    }
+
+    form{
+        margin-left: -47px;
+    }
 }

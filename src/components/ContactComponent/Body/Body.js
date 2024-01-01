@@ -28,7 +28,7 @@ function Body() {
             </div>
 
             <div className="thoughts">
-                    <label htmlFor="">Tell us about your experience and Why you want to intern with us</label>
+                    <label htmlFor="">Share your thoughts</label>
                     <textarea
                         name=""
                       />
@@ -36,7 +36,7 @@ function Body() {
 
             <div className='pick'>
               <input type= 'checkbox'/>
-              <p>I agrree to receive other communications from 501k internship</p>
+              <p>I agree to receive other communications from 501k internship</p>
             </div>
 
             <div className='pick'>

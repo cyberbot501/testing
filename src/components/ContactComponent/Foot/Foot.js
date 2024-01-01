@@ -3,9 +3,11 @@ import env from "../../../Assets/envelope.png"
 import lin from "../../../Assets/linkdn.png"
 import twi from "../../../Assets/twitter.png"
 import wha from "../../../Assets/whatsapp.png"
+
+import './foot.css'
 function Foot() {
   return (
-    <div className='container'>
+    <div className='containers'>
         <ul className='f-nav'>
             <li><a href='#'>Home</a></li>
             <li><a href='#'>Contact uS</a></li>
@@ -20,10 +22,10 @@ function Foot() {
 
         <div className='contact'>
             <div className='icon'>
-                {/* <img src={env} alt=''/>
+                <img src={env} alt=''/>
                 <img src={twi} alt=''/>
                 <img src={lin} alt=''/>
-                <img src={wha} alt=''/> */}
+                <img src={wha} alt=''/>
             </div>
             <p>@productsquare</p>
         </div>

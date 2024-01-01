@@ -1,0 +1,50 @@
+.containers{
+    background: #041B35;
+    border: 1px solid #041B35;
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.containers .contact .icon{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.containers .contact .icon img{
+    width: 34px;
+    height: 34px;
+    cursor: pointer;
+}
+
+.containers ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.containers ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.containers .contact{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.containers .contact p{
+    font-size: 21px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
