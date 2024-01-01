@@ -46,5 +46,65 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 810px){
+    .containers{
+        gap: 7rem;
+    }
+}
 
+@media screen and (max-width: 430px){
+    .containers .contact .icon img{
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
 
+    .containers .contact p{
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .containers ul li a{
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .containers{
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .containers .contact .icon img{
+        width: 18px;
+        height: 18px;
+        cursor: pointer;
+    }
+
+    .containers .contact p{
+        font-size: 13px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .containers ul li a{
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    .containers{
+        gap: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width: 375px){
+    .containers{
+        gap: 1.1rem;
+    }
+}
