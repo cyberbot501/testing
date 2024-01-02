@@ -4,78 +4,85 @@
     /* /* margin-top: 300px; */
 }
 
-.Container .main .inner .avater{
+.Container .mainn .inner .avater{
     display: flex;
     gap: 20px;
 }
-.Container .main .inner .avater p{
+.Container .mainn .inner .avater p{
     width: 260px;
     margin-top: 10px;
 }
-.Container .main .inner h4{
+.Container .mainn .inner h4{
     margin-bottom: 40px;
 }
 
-.Container .main form .name{
+.Container .mainn .non .name{
     display: flex;
     flex-direction: column;
 }
 
-.Container .main form .name input{
+.Container .mainn .non .name input{
     width: 535px;
     height: 71px;
     background: #D9D9D9;
     border: none;
 }
 
-.Container .main form .name{
+.Container .mainn .non .name{
     margin-top: 40px;
 }
 
-.Container .main form .thoughts{
+.Container .mainn .non .thoughts{
     margin-top: 40px;
 }
 
-form{
+.non{
     background: #ffffff;
     width: 100%;
     padding: 30px 0px 30px 60px;
     margin-left: 160px;
 }
 
-.Container .main form .thoughts textarea{
+.Container .mainn .non .thoughts textarea{
     width: 535px;
     height: 228px;
     background: #D9D9D9;
     border: none;
 }
 
-.Container .main form .pick input{
+.Container .mainn .non .pick input{
     width: 42px;
     height: 36px;
     font-size: 12px;
     font-weight: 400;
 }
 
-.Container .main form .pick{
+.Container .mainn .non .pick{
     display: flex;
     flex-direction: row;
     gap: 10px;
     margin-top: 40px;
 }
 
-.Container .main form .pick p{
+.Container .mainn .non .pick p{
     margin-top: 7px;
     font-size: 14px;
     font-weight: 500;
 }
 
-.Container .main form .pick p.data{
+.mainn{
+    display: flex;
+    justify-content: center;
+    padding: 20px 50px;
+    gap: 70px;
+  }
+
+.Container .mainn .non .pick p.data{
     font-size: 14px;
     font-weight: 500;
 }
 
-.Container .main form button{
+.Container .mainn .non button{
     width: 158px;
     height: 54px;
     background-color: #041B35;
@@ -87,22 +94,22 @@ form{
     font-weight: 500;
 }
 
-.Container .main form .name label{
+.Container .mainn .non .name label{
     font-size: 18px;
     font-family: 500;
 }
-.Container .main form .thoughts label{
+.Container .mainn .non .thoughts label{
     font-size: 18px;
     font-family: 500;
 }
 
 @media screen and (max-width: 810px){
-    .Container .main{
+    .Container .mainn{
         display: flex;
         flex-direction: column;
     }
 
-    form{
+    .non{
         background: #ffffff;
         width: 100%;
         padding: 30px 0px 30px 60px;
@@ -111,61 +118,63 @@ form{
 }
 
 @media screen and (max-width: 430px){
-    .Container .main form .name input{
+    .Container .mainn .non .name input{
         width: 325px;
         height: 51px;
     }
 
-    .Container .main form .thoughts textarea{
+    .Container .mainn .non .thoughts textarea{
         width: 325px;
         height: 228px;
     }
 
-    form{
+   
+
+    .non{
         background: #ffffff;
         max-width: 100%;
         padding: 30px 350px 30px 30px;
         margin-left: -45px;
     }
 
-    .Container .main .inner{
+    .Container .mainn .inner{
         margin-left: -20px;
     }
 
 }
 
 @media screen and (max-width: 390px){
-    .Container .main .inner .avater p{
+    .Container .mainn .inner .avater p{
        font-size: 14px;
        margin-top: 25px;
     }
-    .Container .main .inner h4{
+    .Container .mainn .inner h4{
       font-size: 18px;
       margin-bottom: 3px;
     }
 
-    .Container .main form .name input{
+    .Container .mainn .non .name input{
         width: 305px;
         height: 51px;
     }
 
-    .Container .main form .thoughts textarea{
+    .Container .mainn .non .thoughts textarea{
         width: 305px;
         height: 228px;
     }
 
-    form{
+    .non{
         margin-left: -47px;
         padding: 30px 330px 30px 30px;
     }
 }
 
 @media screen and (max-width: 375px){
-    .Container .main .inner .avater p{
+    .Container .mainn .inner .avater p{
         font-size: 13px;
     }
 
-    form{
+    .non{
         margin-left: -53px;
     }
 }

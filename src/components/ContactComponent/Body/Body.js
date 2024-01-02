@@ -4,7 +4,7 @@ import cbg from "../../../Assets/contact.png";
 function Body() {
   return (
     <div className='Container'>
-      <div className='main'>
+      <div className='mainn'>
         <div className='inner'>
           <h4>Hey, there!!!</h4>
           <div className='avater'>
@@ -16,7 +16,7 @@ function Body() {
           </div>
         </div>
 
-        <form>
+        <div className='non'>
         <div className="name">
                 <label htmlFor="lastname">First Name</label>
                 <input type="text" id="lastname"/> 
@@ -45,7 +45,7 @@ function Body() {
             </div>
 
             <button>Submit</button>
-        </form>
+        </div>
 
 
       </div>
