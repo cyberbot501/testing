@@ -4,6 +4,7 @@ import { useContext } from "react";
 import RegisterContext from '../../../contexts/register-context';
 import { useState } from 'react';
 import logoss from "../assets/image 3.svg"
+import HomePage from '../../HomePage';
 
 
 export default function StepOne() {
@@ -107,7 +108,7 @@ export default function StepOne() {
             </div>
             </div>
             <div className='stepp'>
-              <button onClick={() => setStep(step - 1)}>Previous</button>
+              <button onClick={() => setStep(<HomePage />)}>Previous</button>
               <button type="submit" className='pop'>NEXT</button>
             </div>
         </div>

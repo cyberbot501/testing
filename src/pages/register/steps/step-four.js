@@ -128,8 +128,11 @@ export default function StepFour() {
               />
             </div>
           </div>
-
-          <button type='submit' className='yes'>APPLY NOW</button>
+          <div className='steppp'>
+              <button onClick={() => setStep(step - 1)} className='mon'>Previous</button>
+              <button type='submit' className='yes'>APPLY NOW</button>
+            </div>
+          
         </form>
       </div>
     </div>
