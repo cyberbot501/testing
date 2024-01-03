@@ -132,7 +132,10 @@ export default function StepThree() {
                 )}
               </div>
             </div>
-            <button type="submit">NEXT</button>
+            <div className='stepp'>
+              <button onClick={() => setStep(step - 1)}>Previous</button>
+              <button type="submit" className='pop'>NEXT</button>
+            </div>
           </div>
         </form>
       </div>

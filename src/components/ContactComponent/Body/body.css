@@ -119,13 +119,13 @@
 
 @media screen and (max-width: 430px){
     .Container .mainn .non .name input{
-        width: 325px;
-        height: 51px;
+        width: 315px;
+        height: 41px;
     }
 
     .Container .mainn .non .thoughts textarea{
-        width: 325px;
-        height: 228px;
+        width: 315px;
+        height: 128px;
     }
 
    
@@ -134,7 +134,7 @@
         background: #ffffff;
         max-width: 100%;
         padding: 30px 350px 30px 30px;
-        margin-left: -45px;
+        margin-left: -35px;
     }
 
     .Container .mainn .inner{
@@ -158,13 +158,21 @@
         height: 51px;
     }
 
+    .Container .mainn .non .name label{
+        font-size: 13px;
+    }
+
+    .Container .mainn .non .thoughts label{
+        font-size: 13px;
+    }
+
     .Container .mainn .non .thoughts textarea{
         width: 305px;
         height: 228px;
     }
 
     .non{
-        margin-left: -47px;
+        margin-left: -35px;
         padding: 30px 330px 30px 30px;
     }
 }
@@ -175,6 +183,6 @@
     }
 
     .non{
-        margin-left: -53px;
+        margin-left: -43px;
     }
 }
