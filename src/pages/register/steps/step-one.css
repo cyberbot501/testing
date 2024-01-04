@@ -141,7 +141,7 @@
 
 
 
-  @media screen and (max-width: 810px) {
+  @media screen and (max-width: 940px){
   .main{
     flex-direction: column;
     padding: 70px 60px;
@@ -176,7 +176,7 @@
   
 }
 
-@media screen and (max-width: 430px){
+@media screen and (max-width: 530px){
   .main{
     flex-direction: column;
     
@@ -212,6 +212,14 @@
     margin-left: -40px;
   }
 
-
+  @media screen and (max-width: 380px){
+    .main .form-box{
+      max-width: 130%;
+      padding: 70px 170px;
+      margin-left: -135px;
+      margin-top: -80px;
+    
+    }
+  }
 }
 

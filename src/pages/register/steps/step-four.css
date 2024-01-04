@@ -139,7 +139,7 @@
   }
 
 
-  @media (width: 810px){
+  @media screen and (max-width: 940px){
     .cv{
       flex-direction: column;
     }
@@ -158,12 +158,14 @@
       margin-top: 15px;
     }
 
-    button.yes{
-      margin-left: 67%;
+    .steppp{
+      gap: 60px;
     }
+
+
   }
 
-  @media screen and (max-width: 430px){
+  @media screen and (max-width: 730px){
 
     .mat-box{
       padding: 50px 20px 40px 20px;
@@ -185,6 +187,7 @@
     .update{
       display: flex;
       flex-direction: column;
+      gap: 30px;
     }
 
     .knownn,
@@ -192,10 +195,12 @@
       margin-top: -40px;
     }
 
+    .updated p{
+      margin-top: 40px;
+    }
 
-
-    button.yes{
-      margin-left: 50%;
+    .steppp{
+      gap: 20PX;
     }
   
   }
