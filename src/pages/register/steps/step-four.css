@@ -163,7 +163,7 @@
     }
   }
 
-  @media (width: 412px){
+  @media screen and (max-width: 430px){
 
     .mat-box{
       padding: 50px 20px 40px 20px;
@@ -175,7 +175,7 @@
     }
 
     .containerss{
-      padding: 40px 30px 40px 30px;
+      padding: 40px 30px 40px 20px;
       margin: none;
       
     }
