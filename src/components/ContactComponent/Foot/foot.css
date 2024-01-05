@@ -1,17 +1,48 @@
+.count{
+    position: relative;
+    background: #000000;
+    height: 100%;
+    border-radius: 0px 150px 2px 0px;
+}
+
+.custom-shape-divider-top-1704490432 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1704490432 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1704490432 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
 .containers{
-    background: #041B35;
-    border: 1px solid #041B35;
+   
+    /* border: 1px solid #041B35; */
     width: 100%;
     color: #ffffff;
     display: flex;
     justify-content: center;
     gap: 10rem;
+    position:relative;
 }
 
 .containers .contact .icon{
     display: flex;
     flex-direction: row;
     gap: 10px;
+    margin-top: 285px;
 }
 
 .containers .contact .icon img{
@@ -25,6 +56,11 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
+    margin-top: 200px;
+}
+
+.containers ul.s-nav{
+    margin-top: 285px;
 }
 
 .containers ul li a{
